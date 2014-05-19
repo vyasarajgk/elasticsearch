@@ -6,7 +6,7 @@ queries. Similar in concept to
 <<query-dsl-bool-query,Boolean query>>, except
 that the clauses are other filters. Can be placed within queries that
 accept a filter.
-
+<<query-dsl-bool-query,minimum_should_match>> option is not supported in the bool filters
 [source,js]
 --------------------------------------------------
 {
